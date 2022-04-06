@@ -1,0 +1,16 @@
+.left-tile {
+  flex-grow: 5;
+  height: 90vh;
+  position: sticky;
+}
+
+.right-tile {
+  overflow-wrap: break-word;
+  max-width: 25vw;
+  height: 100vh;
+}
+
+.right-tile > p {
+  font-size: 48px!important;
+  padding: 0 8px;
+}
